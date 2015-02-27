@@ -23,10 +23,12 @@ My first, attempt was failing, because of a bug in bats. I fixed it. Thanks open
 
 Now I've found, [urchin](https://github.com/tlevine/urchin) from the bats issues. And the developer also produced a nice [blog post about testing for shell scripts](https://blog.scraperwiki.com/2012/12/how-to-test-shell-scripts/). Which opened some more possibilities. 
 
-So I decided to start working on those testing tools:
+So I decided to start working on the following testing tools.
 
-* bats
-* urchin
+## Testing testing frameworks
+
+* [bats](https://github.com/sstephenson/bats)
+* [urchin](https://github.com/tlevine/urchin)
 * tap related tools - may be related to CI Continuous Integration
 * [wvtest](https://github.com/apenwarr/wvtest)
 

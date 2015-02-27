@@ -1,0 +1,15 @@
+# Commande history to create this subfolder
+
+git submodule add https://github.com/Sylvain303/bats
+cd bats
+git remote add upstream https://github.com/sstephenson/bats.git
+
+
+git submodule add https://github.com/Sylvain303/urchin.git
+cd urchin/
+git remote add upstream https://github.com/tlevine/urchin.git
+
+
+git submodule add https://github.com/Sylvain303/wvtest.git
+cd wvtest/
+git remote add upstream https://github.com/Sylvain303/wvtest.git
